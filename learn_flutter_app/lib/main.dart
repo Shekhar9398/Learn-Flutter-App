@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Views/FruitsListview.dart';
+import 'package:learn_flutter_app/Views/ContainerView.dart';
 
 void main() {
   runApp(
@@ -7,7 +7,7 @@ void main() {
       debugShowCheckedModeBanner: false,
 
       home: Scaffold(
-        body: FruitsListview(),
+        body: Containerview(),
       )
 
       ),
